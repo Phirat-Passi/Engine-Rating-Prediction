@@ -13,4 +13,8 @@ your ability to find trends, outliers, relative importance of variables with dev
 and your ability to work effectively, efficiently and independently within a commercial setting.
 This task is designed as well to test your hyper-tuning abilities or lateral thinking.
 
+## Data
+
+![Screenshot from 2024-01-22 17-13-45](https://github.com/Phirat-Passi/Engine-Rating-Prediction/assets/67471222/04cb36fe-8d94-47f4-bc9e-64bf9965a291)
+
 
