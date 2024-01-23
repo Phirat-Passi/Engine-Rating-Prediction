@@ -211,7 +211,7 @@ Analysis of Registration Year
       2. XGboost, LGBM models which are showing generalization. (Testing R2 Score > 0.71)
 - hence we will proceed with XGboost, LGBM for further finetuning.
       
-6. Finetuning:
+7. Finetuning:
       1. LGBM : using RandomSearchCV
             - Training R squared score: 0.7969750516972294
             - Validation R squared score: 0.7211616261543252
@@ -230,6 +230,37 @@ Analysis of Registration Year
       3. Final Model: we will go with XGBoost as our final model because it shows more generealization to new/unseen data and slightly better test R2 score
 
 7. Storing the final model in a pickel file
+
+# 2. Basics:
+
+    1. How well does your model work?
+    
+    - Ans : I implemented 9 models in which Xgboot has given the best Training R2 Score (0.865429261592139) and Test R2 Score (0.720165539805564) as compared to other algorithm that i have used.
+    
+
+    2. How do you know for sure that’s how well it works?
+
+    - Ans: I evaluated the model's performance using both Train R2 Score and Test R2 Score as evaluation metrics. In conclusion, these metrics provide insights into the model's ability to generalize from the training data to unseen test data."
+            
+
+    3. What stats did you use to prove its predictive performance and why?
+
+    - Ans: It measures how well the model's predictions align with the actual values. The higher the R2 score, the better the model's ability to explain the variance in the target variable.
+    
+
+    4. What issues did you encounter?
+
+    - Ans: issues:
+        1) outliers : removed using IQR
+        2) overfitting: removed using cross validation
+
+
+    5. What insights did you obtain from this data? For example: What features are important? Why? What visualisations help you understand the data?
+
+    - Ans : important features are:
+        1. inspection Start Time
+        2. Odometer reading
+        3. year of registration
 
 
 
