@@ -231,36 +231,54 @@ Analysis of Registration Year
 
 7. Storing the final model in a pickel file
 
-# 2. Basics:
+#### 2. Basics
 
-    1. How well does your model work?
+A. How well does your model work?
     
-    - Ans : I implemented 9 models in which Xgboot has given the best Training R2 Score (0.865429261592139) and Test R2 Score (0.720165539805564) as compared to other algorithm that i have used.
+- Ans : I implemented 9 models in which Xgboot has given the best Training R2 Score (0.865429261592139) and Test R2 Score (0.720165539805564) as compared to other algorithm that i have used.
     
 
-    2. How do you know for sure that’s how well it works?
+B. How do you know for sure that’s how well it works?
 
-    - Ans: I evaluated the model's performance using both Train R2 Score and Test R2 Score as evaluation metrics. In conclusion, these metrics provide insights into the model's ability to generalize from the training data to unseen test data."
+- Ans: I evaluated the model's performance using both Train R2 Score and Test R2 Score as evaluation metrics. In conclusion, these metrics provide insights into the model's ability to generalize from the training data to unseen test data."
             
 
-    3. What stats did you use to prove its predictive performance and why?
+C. What stats did you use to prove its predictive performance and why?
 
-    - Ans: It measures how well the model's predictions align with the actual values. The higher the R2 score, the better the model's ability to explain the variance in the target variable.
+- Ans: It measures how well the model's predictions align with the actual values. The higher the R2 score, the better the model's ability to explain the variance in the target variable.
     
 
-    4. What issues did you encounter?
+D. What issues did you encounter?
 
-    - Ans: issues:
+- Ans: issues:
         1) outliers : removed using IQR
         2) overfitting: removed using cross validation
 
 
-    5. What insights did you obtain from this data? For example: What features are important? Why? What visualisations help you understand the data?
+E. What insights did you obtain from this data? For example: What features are important? Why? What visualisations help you understand the data?
 
-    - Ans : important features are:
+- Ans : important features are:
         1. inspection Start Time
         2. Odometer reading
         3. year of registration
+
+#### 3. Next steps:
+
+1. What other data (if any) would have been useful?
+- Ans : Additional useful features
+        - Displacement of vehicle
+        - age of vehicle
+        - brand reputation (good, bad)
+
+2. What are some other things you would have done if you had more time?
+- Ans : Additional experimentation
+    
+  2.1. More detailed EDA:
+            - i. look into more-rhobust feature selecton
+    
+  2.2. Model Training:
+            - i. could have used multi-class classification (make 10 classes for engine_rating)
+            - ii. pre-trained DL models can be implemented (i.e GPT)
 
 
 
