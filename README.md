@@ -230,6 +230,8 @@ Analysis of Registration Year
       3. Final Model: we will go with XGBoost as our final model because it shows more generealization to new/unseen data and slightly better test R2 score
 
 7. Storing the final model in a pickel file
+   
+<br>
 
 #### 2. Basics
 
@@ -261,6 +263,8 @@ E. What insights did you obtain from this data? For example: What features are i
         1. inspection Start Time
         2. Odometer reading
         3. year of registration
+
+<br>
 
 #### 3. Next steps:
 
