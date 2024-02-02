@@ -43,7 +43,7 @@ This task is designed as well to test your hyper-tuning abilities or lateral thi
 
 ![image](https://github.com/Phirat-Passi/Engine-Rating-Prediction/assets/67471222/58340ee0-97da-4760-b955-fd6b9ae8f6b4)
 
-## Number of INspections across weekday 
+## Number of Inspections across weekday 
 
 ![image](https://github.com/Phirat-Passi/Engine-Rating-Prediction/assets/67471222/0719556c-9ec4-4bd5-a0eb-03ba55d5ebf0)
 
